@@ -1,0 +1,213 @@
+/****** Font Import From Google *******/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+
+/******* Declare Global Css *********/
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+/********* Declaring Font size in html to use "rem" **************/
+
+html {
+  font-size: 10px;
+}
+
+/******* body tag *********/
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ada6a0;
+  color: black;
+}
+
+/********* section margin tag for making space after a div **********/
+
+.section-margin-bottom {
+  margin-bottom: 2rem;
+}
+
+/********* This will stretch the content from left and right side ***************/
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/******* Positioning Header tag **********/
+
+.header-heading {
+  text-align: center;
+  font-size: 5rem;
+}
+
+/********* Navbar style start ****************/
+
+.header-navbar {
+  background-color: #fff;
+}
+
+.header-navbar-items {
+  list-style-type: none;
+  display: inline-block;
+  padding: 2rem;
+}
+
+.header-navbar-items-modified {
+  padding: 0;
+}
+
+.header-navbar-items-link {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+.header-navbar-items-link-image {
+  width: 1.5rem;
+  margin-left: 80rem;
+}
+
+/******* Navbar style End*********/
+
+/****** Front image style start********/
+
+
+.hero {
+  background-color: #fff;
+  padding: 2rem;
+}
+.hero-image {
+  width: 100%;
+}
+/******* Front image style end ***********/
+
+
+/******** blog content style start************/
+
+.blog-box {
+  display: inline-block;
+  width: calc((100% / 4) - 1rem);
+  background-color: #fff;
+  padding: 1rem;
+}
+.blog-box:not(:last-child) {
+  margin-right: 1rem;
+}
+.blog-box > * {
+  margin-bottom: 1rem;
+}
+.blog-box-image {
+  width: 100%;
+  display: inline-block;
+}
+.blog-box-text {
+  text-align: justify;
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  text-indent: 5rem;
+  font-weight: 500;
+}
+
+.blog-box-link {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+  font-size: 1.2rem;
+  display: block;
+  text-align: right;
+}
+
+/******* Blog content style end *********/
+
+/******* Newsletter style start*********/
+.gallery {
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.gallery-images,
+.gallery-texts {
+  display: inline-block;
+}
+.gallery-images {
+  width: 25%;
+  display: inline-block;
+}
+.gallery-images-content {
+  width: 45%;
+  display: inline-block;
+  margin: 0.2rem 0.4rem;
+}
+.gallery-texts {
+  width: 73%;
+  display: inline-block;
+  vertical-align: top;
+}
+.gallery-texts-heading {
+  font-size: 2.5rem;
+}
+.gallery-texts-paragraph {
+  text-align: justify;
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  text-indent: 5rem;
+  font-weight: 500;
+}
+.gallery-texts > * {
+  margin-bottom: 0.5rem;
+}
+.gallery-texts-link {
+  text-decoration: none;
+  display: block;
+  color: inherit;
+  text-align: right;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+/******* Newsletter style end *********/
+
+
+/******** Footer style start************/
+.footer {
+  background-color: #fff;
+}
+.footer-left,
+.footer-right {
+  display: inline-block;
+  width: 48%;
+}
+.footer-left > * {
+  margin-left: 1.5rem;
+}
+.footer-navbar {
+  text-align: right;
+}
+.footer-navbar-items {
+  list-style-type: none;
+  display: inline-block;
+  padding: 2rem;
+}
+
+.footer-navbar-items-link {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.footer-left-link,
+.footer-navbar-items-link {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+/********** Footer style end ****************/
